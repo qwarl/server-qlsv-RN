@@ -30,7 +30,7 @@ class AdminController {
                 status: "FAIL",
                 msg: "Please check your info again.",
             });
-            console.log('login fail loif');
+            console.log('login fail lòi rồi bạn eyyy');
         }
 
     }

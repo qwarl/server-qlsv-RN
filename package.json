@@ -1,6 +1,28 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.13"
-  }
+    "mongoose": "^6.0.13",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "server-qlsv-rn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwarl/server-qlsv-RN.git"
+  },
+  "author": "qwarl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qwarl/server-qlsv-RN/issues"
+  },
+  "homepage": "https://github.com/qwarl/server-qlsv-RN#readme",
+  "description": ""
 }
